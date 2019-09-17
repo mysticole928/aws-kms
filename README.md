@@ -5,5 +5,5 @@ This repository holds CLI demos and tutorials that I've build to outline and exp
 
 It is designed to illustrate how the AWS KMS works.  In a production system, these tasks would be automated and be **much** more efficient.
 
-kms.md - outlines the steps to use a Customer Master Key (CMK) to encrypt and decrypt data in conjunction with `openssl`
-
+create-cmk.md - outlines the steps to create a Customer Master Key (CMK) from the command line
+kms.md - outlines the steps to use a CMK to encrypt and decrypt data in conjunction with `openssl`
