@@ -35,14 +35,6 @@ Yes, I did edit the above to make the key, my account number, the plaintext, and
 
 The `Plaintext` and `CiphertextBlob` are Base64 encoded.
 
-## Optional: Create an Alias for the CMK
-
-If you have permission to administer the key, here's the command to create an alias:
-
-```bash
-aws kms create-alias --target-key-id TARGET-KEY-ID --alias-name "alias/NAME" --region REGION
-```
-
 The REGION is always in lower-case.
 
 ## Save the keys as text files
